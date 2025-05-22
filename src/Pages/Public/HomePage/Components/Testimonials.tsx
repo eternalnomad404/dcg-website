@@ -1,8 +1,7 @@
 import React from "react";
 
-interface TestimonialsProps {}
 
-const Testimonials: React.FC<TestimonialsProps> = () => {
+const Testimonials: React.FC = () => {
   return (
     <section className="py-20">
       <div className="container mx-auto px-6">

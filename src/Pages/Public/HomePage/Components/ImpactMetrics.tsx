@@ -6,9 +6,8 @@ interface ImpactMetric {
   icon: string;
 }
 
-interface ImpactMetricsProps {}
 
-const ImpactMetrics: React.FC<ImpactMetricsProps> = () => {
+const ImpactMetrics: React.FC = () => {
   const impactMetrics: ImpactMetric[] = [
     { number: 150, label: "Projects Completed", icon: "fa-solid fa-briefcase" },
     { number: 5000, label: "Lives Impacted", icon: "fa-solid fa-heart" },

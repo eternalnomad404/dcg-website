@@ -1,8 +1,7 @@
 import React from "react";
 
-interface FounderQuoteProps {}
 
-const FounderQuote: React.FC<FounderQuoteProps> = () => {
+const FounderQuote: React.FC = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">

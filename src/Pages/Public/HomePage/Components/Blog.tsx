@@ -7,9 +7,8 @@ interface BlogPost {
   image: string;
 }
 
-interface BlogProps {}
 
-const Blog: React.FC<BlogProps> = () => {
+const Blog: React.FC = () => {
   const blogPosts: BlogPost[] = [
     {
       title: "The Future of Student-Led Consulting",
