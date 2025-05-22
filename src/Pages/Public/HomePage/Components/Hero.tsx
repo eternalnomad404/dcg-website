@@ -1,8 +1,7 @@
 import React from "react";
 
-interface HeroProps {}
 
-const Hero: React.FC<HeroProps> = () => {
+const Hero: React.FC = () => {
   return (
     <section
       className="relative min-h-screen flex items-center"

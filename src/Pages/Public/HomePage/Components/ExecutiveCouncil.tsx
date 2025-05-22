@@ -6,9 +6,8 @@ interface ExecutiveMember {
   image: string;
 }
 
-interface ExecutiveCouncilProps {}
 
-const ExecutiveCouncil: React.FC<ExecutiveCouncilProps> = () => {
+const ExecutiveCouncil: React.FC = () => {
   const executiveTeam: ExecutiveMember[] = [
     {
       name: "Alexandra Chen",

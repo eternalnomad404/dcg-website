@@ -6,9 +6,8 @@ interface Service {
   icon: string;
 }
 
-interface ServicesProps {}
 
-const Services: React.FC<ServicesProps> = () => {
+const Services: React.FC = () => {
   const services: Service[] = [
     {
       title: "Market Research",

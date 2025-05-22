@@ -5,9 +5,8 @@ interface FAQItem {
   answer: string;
 }
 
-interface FAQProps {}
 
-const FAQ: React.FC<FAQProps> = () => {
+const FAQ: React.FC = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
 
   const toggleAccordion = (index: number) => {
