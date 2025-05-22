@@ -10,9 +10,9 @@ interface ExecutiveMember {
 const ExecutiveCouncil: React.FC = () => {
   const executiveTeam: ExecutiveMember[] = [
     {
-      name: "Alexandra Chen",
+      name: "Pratham Bansal",
       position: "President",
-      image: "/public/Images/presidentPratham.png",
+      image: "/Images/presidentPratham.png",
     },
   ];
 
