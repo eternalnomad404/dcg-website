@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <section
       className="relative min-h-screen flex items-center"
       style={{
-        backgroundImage: `url('./public/Images/heroImage.jpg')`,
+        backgroundImage: `url('/Images/heroImage.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

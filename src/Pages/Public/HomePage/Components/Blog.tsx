@@ -15,7 +15,7 @@ const Blog: React.FC = () => {
       category: "Insights",
       preview:
         "Exploring how student consultants are reshaping the industry with fresh perspectives and innovative approaches.",
-      image: "/public/Images/blogPost.jpg",
+      image: "/Images/blogPost.jpg",
     },
   ];
 
