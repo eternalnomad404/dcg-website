@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-interface NavbarProps {}
-
-const Navbar: React.FC<NavbarProps> = () => {
+const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -28,12 +26,11 @@ const Navbar: React.FC<NavbarProps> = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center">
-          <div className="text-2xl font-bold text-[#020F59] hover:opacity-90 transition-all duration-300 cursor-pointer">
-            <span className="mr-2">DCG</span>
-            <span className="text-base font-semibold bg-gradient-to-r from-[#020F59] to-[#0A2472] bg-clip-text text-transparent">
-              Delhi Consulting Group
-            </span>
-          </div>
+          <img
+            src="/Images/dcgLogoblack.png"
+            alt="Delhi Consulting Group Logo"
+            className="h-10 cursor-pointer hover:opacity-90 transition-all duration-300"
+          />
         </div>
         <div className="hidden md:flex items-center space-x-6">
           <a
