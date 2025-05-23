@@ -21,8 +21,8 @@ const FounderQuote: React.FC = () => {
               />
             </div>
             <div className="text-left">
-              <h4 className="font-bold text-[#020F59]">Dr. Nat Ware</h4>
-              <p className="text-gray-600">Founder, DCG</p>
+              <h4 className="font-bold text-[#020F59]">Pratham Bansal</h4>
+              <p className="text-gray-600">President, DCG</p>
             </div>
           </div>
         </div>
