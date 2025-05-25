@@ -5,7 +5,7 @@ import StatisticsSection from "./Components/StatisticsSection";
 const Projects: React.FC = () => {
  
   return (
-    <div className="min-h-screen bg-gray-50 font-['Inter',sans-serif]">
+    <div className="min-h-screen bg-gray-50 font-sans">
         {/* Navbar */}
         <Navbar/>
       {/* Main Content */}
