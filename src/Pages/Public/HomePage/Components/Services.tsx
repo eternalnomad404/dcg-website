@@ -10,6 +10,18 @@ interface Service {
 const Services: React.FC = () => {
   const services: Service[] = [
     {
+      title: "Digital Transformation",
+      description:
+        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+      icon: "fa-solid fa-chart-line",
+    },
+    
+     {
+      title: "Digital Strategy",
+      description:
+        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+      icon: "fa-solid fa-chart-line",
+    }, {
       title: "Market Research",
       description:
         "Comprehensive market analysis to identify opportunities and threats in your industry.",
