@@ -51,6 +51,12 @@ const Navbar: React.FC = () => {
           >
             Projects
           </a>
+           <a
+            href="blogs"
+            className="text-[#020F59] hover:text-[#0A2472] font-medium px-3 py-2 rounded-lg hover:bg-gray-100 transition-all duration-300"
+          >
+            Blogs
+          </a>
           <div className="flex items-center space-x-3 ml-4">
             <button className="bg-[#020F59] text-white px-5 py-2 rounded-button font-medium hover:bg-[#0A2472] transition-all duration-300 whitespace-nowrap cursor-pointer shadow-sm hover:shadow-md">
               Log In
