@@ -40,12 +40,6 @@ const Navbar: React.FC = () => {
             Home
           </a>
           <a
-            href="#services"
-            className="text-[#020F59] hover:text-[#0A2472] font-medium px-3 py-2 rounded-lg hover:bg-gray-100 transition-all duration-300"
-          >
-            Services
-          </a>
-          <a
             href="projects"
             className="text-[#020F59] hover:text-[#0A2472] font-medium px-3 py-2 rounded-lg hover:bg-gray-100 transition-all duration-300"
           >
@@ -81,19 +75,26 @@ const Navbar: React.FC = () => {
         <div className="md:hidden bg-white shadow-lg absolute w-full">
           <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
             <a
-              href="#"
+              href="/"
               className="text-gray-700 hover:text-[#020F59] font-medium py-2"
             >
               Home
             </a>
-            <a
-              href="#services"
+             <a
+              href="projects"
               className="text-gray-700 hover:text-[#020F59] font-medium py-2"
             >
-              Services
+              Projects
             </a>
+             <a
+              href="blogs"
+              className="text-gray-700 hover:text-[#020F59] font-medium py-2"
+            >
+              Blogs
+            </a>
+           
             <button className="bg-[#B6D8C3] text-[#020F59] px-5 py-2 rounded-button font-medium hover:bg-[#9ac9ad] transition-all duration-300 whitespace-nowrap cursor-pointer">
-              Join Us
+              Log In
             </button>
           </div>
         </div>
