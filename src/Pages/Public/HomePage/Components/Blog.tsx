@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface BlogPost {
   title: string;
@@ -6,7 +7,6 @@ interface BlogPost {
   preview: string;
   image: string;
 }
-
 
 const Blog: React.FC = () => {
   const blogPosts: BlogPost[] = [
@@ -63,9 +63,11 @@ const Blog: React.FC = () => {
           ))}
         </div>
         <div className="text-center mt-12">
-          <button className="bg-[#020F59] text-white px-6 py-3 rounded-button font-medium hover:bg-[#01083d] transition-all duration-300 whitespace-nowrap cursor-pointer">
-            View All Posts
-          </button>
+          <Link to="/blogs">
+            <button className="bg-[#020F59] text-white px-6 py-3 rounded-button font-medium hover:bg-[#01083d] transition-all duration-300 whitespace-nowrap cursor-pointer">
+              View All Posts
+            </button>
+          </Link>
         </div>
       </div>
     </section>
