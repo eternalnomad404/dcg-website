@@ -1,18 +1,19 @@
 import React from "react";
 
 interface ImpactMetric {
-  number: number;
+  number: number | string; // updated here
   label: string;
   icon: string;
 }
 
 
+
 const ImpactMetrics: React.FC = () => {
   const impactMetrics: ImpactMetric[] = [
-    { number: 150, label: "Projects Completed", icon: "fa-solid fa-briefcase" },
-    { number: 5000, label: "Lives Impacted", icon: "fa-solid fa-heart" },
-    { number: 75, label: "Mentors", icon: "fa-solid fa-chalkboard-teacher" },
-    { number: 120, label: "Consultants", icon: "fa-solid fa-user-tie" },
+    { number: '40+', label: "Projects Completed", icon: "fa-solid fa-briefcase" },// updated here
+    { number: '5000+', label: "Lives Impacted", icon: "fa-solid fa-heart" },// updated here
+    { number: '30+', label: "Mentors", icon: "fa-solid fa-chalkboard-teacher" },// updated here
+    { number: '150+', label: "Consultants", icon: "fa-solid fa-user-tie" },// updated here
   ];
 
   return (

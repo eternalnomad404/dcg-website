@@ -10,21 +10,40 @@ interface Service {
 const Services: React.FC = () => {
   const services: Service[] = [
     {
-      title: "Digital Transformation",
+      title: "Technology Consulting",
       description:
-        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+        "We assist startups and organizations in leveraging cutting-edge technology. From product development strategies to UI/UX enhancements and digital transformation, we ensure tech solutions align with long-term business goals.",
       icon: "fa-solid fa-chart-line",
     },
     
      {
-      title: "Digital Strategy",
-      description:
-        "Comprehensive market analysis to identify opportunities and threats in your industry.",
-      icon: "fa-solid fa-chart-line",
-    }, {
       title: "Market Research",
       description:
-        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+        "We conduct detailed market research, competitor analysis and benchmarking to help our clients gain an in-depth understanding of the sectoral landscape, identify opportunities and navigate challenges.",
+      icon: "fa-solid fa-chart-line",
+    },
+     {
+      title: "Financial Planning",
+      description:
+        "We formulate funding, revenue generation and cost-cutting strategies thereby helping our clients build financially sustainable organisations..",
+      icon: "fa-solid fa-chart-line",
+    },
+    {
+      title: "Branding and Marketing",
+      description:
+        "We develop innovative branding and marketing campaigns which portray our clients' work in the best way possible and maximise their reach.",
+      icon: "fa-solid fa-chart-line",
+    },
+     {
+      title: "Human Resource Management",
+      description:
+        "We help our clients attract and retain top talent by devising employee/volunteer recruitment and management strategies.",
+      icon: "fa-solid fa-chart-line",
+    },
+     {
+      title: "Process Optimization",
+      description:
+        "We identify key performance indicators and help our client optimise business processes to maximise their operational efficiency.",
       icon: "fa-solid fa-chart-line",
     },
   ];

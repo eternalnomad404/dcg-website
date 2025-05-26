@@ -15,14 +15,14 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-2xl text-white">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Empowering Impact through Student-led Strategy
+           People | Productivity | Profitability
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-200">
             Delhi Technological University's premier student-run consulting
             society delivering professional solutions with fresh perspectives.
           </p>
           <button className="bg-[#B6D8C3] text-[#020F59] px-8 py-3 rounded-button font-bold text-lg hover:bg-white transition-all duration-300 whitespace-nowrap cursor-pointer">
-            Explore Our Work
+           Love discussing business? We do too!
           </button>
         </div>
       </div>

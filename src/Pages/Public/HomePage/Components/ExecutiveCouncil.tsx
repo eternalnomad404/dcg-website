@@ -23,13 +23,13 @@ const ExecutiveCouncil: React.FC = () => {
       name: "Aniket Gupta",
       position: "Vice President",
       image: "/Images/vicePresidentAniket.png",
-      description: "Driving operational efficiency and fostering strategic partnerships across all business units."
+      description: "Supporting the team and driving new initiatives for society growth.."
     },
     {
       name: "Nishit Jain",
       position: "General Secretary",
       image: "/Images/generalSecretaryNishit.png",
-      description: "Ensuring governance excellence and maintaining organizational transparency and accountability."
+      description: "Ensuring smooth communication and organizing all our activities."
     },
     {
       name: "Priyank Popli",
@@ -41,7 +41,7 @@ const ExecutiveCouncil: React.FC = () => {
       name: "Pratyush Kumar",
       position: "Tresurer",
       image: "/Images/treasurerPratyush.png",
-      description: "Developing innovative marketing strategies to expand our reach and strengthen brand presence."
+      description: "Overseeing budgets and making sure our spending is transparent."
     },
     {
       name: "Shivam Bhardwaj",

@@ -27,13 +27,9 @@ const FAQ: React.FC = () => {
     {
       question: "Who can join DTU Consulting Group?",
       answer:
-        "DCG welcomes students from across Delhi Technological University's academic programs, with particular emphasis on those interested in developing consulting skills and contributing to impactful projects5. The organization operates through a structured recruitment process that evaluates candidates based on analytical capabilities, communication skills, and commitment to the organization's mission and values.",
+        "DCG welcomes students from across Delhi Technological University's academic programs, with particular emphasis on those interested in developing consulting skills and contributing to impactful projects. The organization operates through a structured recruitment process that evaluates candidates based on analytical capabilities, communication skills, and commitment to the organization's mission and values.",
     },
-    {
-      question: "What time commitment is expected from members?",
-      answer:
-        "Active participation in DCG involves engagement in consulting projects, educational programs, and organizational activities.Members typically participate in project teams while also contributing to the organization's broader educational and networking initiatives.",
-    },
+   
     {
       question: "What types of projects does DCG undertake?",
       answer:

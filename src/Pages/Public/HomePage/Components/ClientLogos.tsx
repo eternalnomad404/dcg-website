@@ -1,5 +1,12 @@
 import React from "react";
 
+const clientLogos = [
+  { src: "/images/HIgh-vison-technology.png", alt: "High vison technology" },
+  { src: "/images/STRATEGIC-EXECUTION-CONSULTANTS-PVT. LTD.png", alt: "STRATEGIC EXECUTION CONSULTANTS PVT. LTD" },
+  { src: "/images/RentOK.png", alt: "RentOK" },
+  { src: "/images/zuno.png", alt: "zuno" },
+  // Add more logos here
+];
 
 const ClientLogos: React.FC = () => {
   return (
@@ -15,12 +22,11 @@ const ClientLogos: React.FC = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-          <div className="flex justify-center items-center h-20">
-            <div className="text-gray-400 hover:text-gray-700 transition-all duration-300 text-4xl">
-              <i className="fa-brands fa-google"></i>
-              <span className="ml-2 text-xl font-semibold">Google</span>
+          {clientLogos.map((logo, idx) => (
+            <div key={idx} className="flex justify-center items-center h-20">
+              <img src={logo.src} alt={logo.alt} className="h-12" />
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

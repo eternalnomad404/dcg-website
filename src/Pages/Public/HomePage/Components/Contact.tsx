@@ -164,28 +164,16 @@ const Contact = () => {
                   </h4>
                   <div className="flex space-x-4">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/dcgdtu/posts/?feedView=all"
                       className="text-[#020F59] hover:text-[#B6D8C3] transition-colors duration-300 text-xl cursor-pointer"
                     >
                       <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/dcg_dtu/"
                       className="text-[#020F59] hover:text-[#B6D8C3] transition-colors duration-300 text-xl cursor-pointer"
                     >
                       <i className="fa-brands fa-instagram"></i>
-                    </a>
-                    <a
-                      href="#"
-                      className="text-[#020F59] hover:text-[#B6D8C3] transition-colors duration-300 text-xl cursor-pointer"
-                    >
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a
-                      href="#"
-                      className="text-[#020F59] hover:text-[#B6D8C3] transition-colors duration-300 text-xl cursor-pointer"
-                    >
-                      <i className="fa-brands fa-facebook"></i>
                     </a>
                   </div>
                 </div>
