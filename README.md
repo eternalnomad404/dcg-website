@@ -1,4 +1,4 @@
-# 📊 DTU Consulting Group – Official Website
+# 📊 DTU Consulting Group – Official Website (in Building)
 
 Welcome to the official website repository of the **DTU Consulting Group (DCG)** – Delhi Technological University's premier undergraduate consulting society.  
 
