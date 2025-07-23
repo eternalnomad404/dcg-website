@@ -68,7 +68,8 @@ const events: EventData[] = [
 
 const Events: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('bizmark2023');
-  const scrollTimeout = useRef<number>();
+const scrollTimeout = useRef<number | null>(null);
+
 
   // Smooth scroll with offset for sticky navbar
   const scrollToSection = (id: string) => {
