@@ -8,7 +8,7 @@ import ImpactMetrics from "./Components/ImpactMetrics";
 import ClientLogos from "./Components/ClientLogos";
 import ExecutiveCouncil from "./Components/ExecutiveCouncil";
 import Testimonials from "./Components/Testimonials";
-import Blog from "./Components/Blog";
+// import Blog from "./Components/Blog";
 import FAQ from "./Components/FAQ";
 import Contact from "./Components/Contact";
 import Footer from "../../../Components/Footer/Footer";
@@ -24,7 +24,7 @@ const Homepage: React.FC = () => {
       <ClientLogos />
       <ExecutiveCouncil />
       <Testimonials />
-      <Blog />
+      {/* <Blog /> */}
       <FAQ />
       <Contact />
       <Footer />
