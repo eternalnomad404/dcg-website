@@ -83,21 +83,25 @@ const scrollTimeout = useRef<number | null>(null);
 
   // Active section detection with debounce
   useEffect(() => {
-    const handleScroll = () => {
-      window.clearTimeout(scrollTimeout.current);
-      scrollTimeout.current = window.setTimeout(() => {
-        for (const event of events) {
-          const el = document.getElementById(event.id);
-          if (el) {
-            const rect = el.getBoundingClientRect();
-            if (rect.top <= 100 && rect.bottom >= 100) {
-              setActiveSection(event.id);
-              break;
-            }
-          }
+   const handleScroll = () => {
+  if (scrollTimeout.current !== null) {
+    window.clearTimeout(scrollTimeout.current);
+  }
+
+  scrollTimeout.current = window.setTimeout(() => {
+    for (const event of events) {
+      const el = document.getElementById(event.id);
+      if (el) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top <= 100 && rect.bottom >= 100) {
+          setActiveSection(event.id);
+          break;
         }
-      }, 100);
-    };
+      }
+    }
+  }, 100);
+};
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
