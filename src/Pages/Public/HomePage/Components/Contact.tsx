@@ -124,7 +124,7 @@ const Contact = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-start">
+                  {/* <div className="flex items-start">
                     <div className="text-[#B6D8C3] text-xl mr-4 mt-1">
                       <i className="fa-solid fa-envelope"></i>
                     </div>
@@ -156,7 +156,7 @@ const Contact = () => {
                       </p>
                       <p className="text-gray-600">Saturday - Sunday: Closed</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="mt-8">
                   <h4 className="font-semibold text-[#020F59] mb-4">
@@ -175,7 +175,7 @@ const Contact = () => {
                     >
                       <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a
+                    {/* <a
                       href="#"
                       className="text-[#020F59] hover:text-[#B6D8C3] transition-colors duration-300 text-xl cursor-pointer"
                     >
@@ -186,7 +186,7 @@ const Contact = () => {
                       className="text-[#020F59] hover:text-[#B6D8C3] transition-colors duration-300 text-xl cursor-pointer"
                     >
                       <i className="fa-brands fa-facebook"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

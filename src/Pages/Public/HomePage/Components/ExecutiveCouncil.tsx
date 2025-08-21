@@ -6,6 +6,7 @@ interface ExecutiveMember {
   position: string;
   image: string;
   description: string;
+  linkedIn: string;
 }
 
 const ExecutiveCouncil: React.FC = () => {
@@ -14,46 +15,60 @@ const ExecutiveCouncil: React.FC = () => {
 
   const executiveTeam: ExecutiveMember[] = [
     {
-      name: "Pratham Bansal",
+      name: "Adarsh Ranjan",
       position: "President",
-      image: "/Images/presidentPratham.png",
-      description: "Leading DCG with strategic vision and innovative solutions to drive organizational excellence."
+      image: "/Images/presidentAdarsh.png",
+      description: "Leading DCG with strategic vision and innovative solutions to drive organizational excellence.",
+      linkedIn: "https://www.linkedin.com/in/adarshranjan02077/"
     },
     {
-      name: "Aniket Gupta",
+      name: "Rohit Shukla",
       position: "Vice President",
-      image: "/Images/vicePresidentAniket.png",
-      description: "Driving operational efficiency and fostering strategic partnerships across all business units."
+      image: "/Images/vicePresidentRohit.png",
+      description: "Driving operational efficiency and fostering strategic partnerships across all business units.",
+      linkedIn: "https://www.linkedin.com/in/rohit-shukla-908445298/"
     },
     {
-      name: "Nishit Jain",
+      name: "Yuvraj Malik",
+      position: "Vice President",
+      image: "/Images/vicePresidentYuvraj.png",
+      description: "Driving operational efficiency and fostering strategic partnerships across all business units.",
+      linkedIn: "https://www.linkedin.com/in/yuvrajmalik2005/"
+    },
+    {
+      name: "Aayesha Hussain",
       position: "General Secretary",
-      image: "/Images/generalSecretaryNishit.png",
-      description: "Ensuring governance excellence and maintaining organizational transparency and accountability."
+      image: "/Images/generalSecretaryAayesha.png",
+      description: "Ensuring governance excellence and maintaining organizational transparency and accountability.",
+      linkedIn: "https://www.linkedin.com/in/ayesha-hussain-8a3a8325b/"
     },
     {
-      name: "Priyank Popli",
+      name: "Aman Jain",
+      position: "General Secretary",
+      image: "/Images/generalSecretaryAman.png",
+      description: "Ensuring governance excellence and maintaining organizational transparency and accountability.",
+      linkedIn: "https://www.linkedin.com/in/aman-jain-3a6609283/"
+    },
+    {
+      name: "Aditya Gautam",
       position: "Treasurer",
-      image: "/Images/treasurerPriyank.png",
-      description: "Managing financial operations and strategic investment decisions to ensure sustainable growth."
+      image: "/Images/treasurerAditya.png",
+      description: "Managing financial operations and strategic investment decisions to ensure sustainable growth.",
+      linkedIn: "https://www.linkedin.com/in/aditya-gautam-766426269/"
     },
     {
-      name: "Pratyush Kumar",
-      position: "Treasurer",
-      image: "/Images/treasurerPratyush.png",
-      description: "Developing innovative marketing strategies to expand our reach and strengthen brand presence."
+      name: "Ruhan Wani",
+      position: "Joint Secretary",
+      image: "/Images/jointSecretaryRuhan.png",
+      description: "Streamlining processes and optimizing workflow efficiency across all organizational departments.",
+      linkedIn: "https://www.linkedin.com/in/ruhan-wani-2a504b2a7/"
     },
     {
-      name: "Shivam Bhardwaj",
-      position: "Secretary",
-      image: "/Images/secretaryShivam.png",
-      description: "Streamlining processes and optimizing workflow efficiency across all organizational departments."
-    },
-    {
-      name: "Vinayak",
-      position: "Secretary",
-      image: "/Images/secretaryVinayak.png",
-      description: "Driving digital transformation and implementing cutting-edge technology solutions for business growth."
+      name: "Atulya Mohan",
+      position: "Joint Secretary",
+      image: "/Images/jointSecretaryAtulya.png",
+      description: "Driving digital transformation and implementing cutting-edge technology solutions for business growth.",
+      linkedIn: "https://www.linkedin.com/in/atulya-mohan-9b95aa1a3/"
     }
   ];
 
@@ -157,7 +172,7 @@ const ExecutiveCouncil: React.FC = () => {
                         aria-label={`Connect with ${member.name}`}
                       >
                         <User size={16} />
-                        <span className="font-medium">Connect</span>
+                        <a href={member.linkedIn} target="_blank"><span className="font-medium">Connect</span></a>
                       </button>
                     </div>
                     
