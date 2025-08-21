@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-200">
             Delhi Technological University's premier student-run consulting
-            society delivering professional solutions with fresh perspectives.
+            society delivering professional solutions with fresh perspectives
           </p>
           <button className="bg-[#B6D8C3] text-[#020F59] px-8 py-3 rounded-button font-bold text-lg hover:bg-white transition-all duration-300 whitespace-nowrap cursor-pointer">
             Explore Our Work
