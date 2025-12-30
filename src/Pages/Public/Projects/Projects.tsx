@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
         {/* Page Title */}
       <PageTitle/>
         {/* Statistics Section */}
-       <StatisticsSection/>
+       {/* <StatisticsSection/> */}
         {/* Projects Grid */}
        <ProjectGrid/>
       </main>
