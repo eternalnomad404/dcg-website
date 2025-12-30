@@ -1,7 +1,7 @@
 import Navbar from "../../../Components/Navbar/Navbar";
 import PageTitle from "./Components/PageTitle";
 import ProjectGrid from "./Components/ProjectGrid";
-import StatisticsSection from "./Components/StatisticsSection";
+
 const Projects: React.FC = () => {
  
   return (
