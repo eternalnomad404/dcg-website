@@ -12,19 +12,19 @@ const Services: React.FC = () => {
     {
       title: "Digital Transformation",
       description:
-        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+        "We help businesses embrace technology-driven change by streamlining processes and enhancing customer experiences. Our solutions focus on modernizing legacy systems, integrating digital tools, and driving innovation. This ensures long-term growth and adaptability in a rapidly evolving market.",
       icon: "fa-solid fa-chart-line",
     },
     
      {
       title: "Digital Strategy",
       description:
-        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+        "We design data-driven strategies that align digital initiatives with business goals. From improving online presence to optimizing customer engagement, we create actionable roadmaps for sustainable success. Our approach ensures measurable outcomes and a competitive edge.",
       icon: "fa-solid fa-chart-line",
     }, {
       title: "Market Research",
       description:
-        "Comprehensive market analysis to identify opportunities and threats in your industry.",
+        "We provide in-depth insights into market trends, consumer behavior, and competitor activities. Our research helps businesses uncover opportunities, assess risks, and make confident strategic decisions. This empowers clients to stay ahead in dynamic industries.",
       icon: "fa-solid fa-chart-line",
     },
   ];
