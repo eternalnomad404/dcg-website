@@ -10,22 +10,58 @@ interface Service {
 const Services: React.FC = () => {
   const services: Service[] = [
     {
-      title: "Digital Transformation",
+      title: "Management",
       description:
-        "We help businesses embrace technology-driven change by streamlining processes and enhancing customer experiences. Our solutions focus on modernizing legacy systems, integrating digital tools, and driving innovation. This ensures long-term growth and adaptability in a rapidly evolving market.",
+        "Strategic planning and organizational development to optimize business operations and drive sustainable growth.",
+      icon: "fa-solid fa-users-cog",
+    },
+    {
+      title: "Human Resource",
+      description:
+        "Talent acquisition, development, and retention strategies to build high-performing teams.",
+      icon: "fa-solid fa-user-tie",
+    },
+    {
+      title: "Sustainability",
+      description:
+        "Environmental and social impact consulting to create responsible business practices.",
+      icon: "fa-solid fa-leaf",
+    },
+    {
+      title: "Financial",
+      description:
+        "Financial planning, analysis, and modeling to ensure fiscal health and profitability.",
       icon: "fa-solid fa-chart-line",
     },
-    
-     {
-      title: "Digital Strategy",
+    {
+      title: "Marketing",
       description:
-        "We design data-driven strategies that align digital initiatives with business goals. From improving online presence to optimizing customer engagement, we create actionable roadmaps for sustainable success. Our approach ensures measurable outcomes and a competitive edge.",
-      icon: "fa-solid fa-chart-line",
-    }, {
-      title: "Market Research",
+        "Data-driven marketing strategies and brand positioning to reach target audiences effectively.",
+      icon: "fa-solid fa-bullhorn",
+    },
+    {
+      title: "Database",
       description:
-        "We provide in-depth insights into market trends, consumer behavior, and competitor activities. Our research helps businesses uncover opportunities, assess risks, and make confident strategic decisions. This empowers clients to stay ahead in dynamic industries.",
-      icon: "fa-solid fa-chart-line",
+        "Database management, client calling, and lead generation systems for efficient operations.",
+      icon: "fa-solid fa-database",
+    },
+    {
+      title: "Strategy",
+      description:
+        "Comprehensive business strategy development for market entry and competitive advantage.",
+      icon: "fa-solid fa-chess",
+    },
+    {
+      title: "Networking",
+      description:
+        "Building strategic partnerships and expanding professional networks for business growth.",
+      icon: "fa-solid fa-network-wired",
+    },
+    {
+      title: "Technology",
+      description:
+        "Digital transformation and technical consulting to leverage emerging technologies.",
+      icon: "fa-solid fa-laptop-code",
     },
   ];
 
@@ -34,11 +70,10 @@ const Services: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#020F59] mb-4">
-            Our Services
+            Our Core Strengths
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            We provide comprehensive consulting solutions tailored to meet the
-            unique challenges of our clients across various industries.
+            Comprehensive consulting expertise across key business domains to drive sustainable growth and innovation.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

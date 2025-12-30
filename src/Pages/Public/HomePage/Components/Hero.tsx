@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <section
       className="relative min-h-screen flex items-center"
@@ -21,7 +24,10 @@ const Hero: React.FC = () => {
             Delhi Technological University's premier student-run consulting
             society delivering professional solutions with fresh perspectives
           </p>
-          <button className="bg-[#B6D8C3] text-[#020F59] px-8 py-3 rounded-button font-bold text-lg hover:bg-white transition-all duration-300 whitespace-nowrap cursor-pointer">
+          <button 
+            onClick={() => navigate('/projects')}
+            className="bg-[#B6D8C3] text-[#020F59] px-8 py-3 rounded-button font-bold text-lg hover:bg-white transition-all duration-300 whitespace-nowrap cursor-pointer"
+          >
             Explore Our Work
           </button>
         </div>

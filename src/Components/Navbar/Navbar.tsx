@@ -1,20 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useAuth } from "../../contexts/AuthContext";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const { user, signOut, loading } = useAuth();
-
-  const handleSignOut = async () => {
-    try {
-      await signOut()
-      setIsMenuOpen(false)
-    } catch (error) {
-      console.error('Sign out failed:', error)
-    }
-  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -75,28 +63,6 @@ const Navbar: React.FC = () => {
           >
             Events
           </a>
-          {!loading && (
-            user ? (
-              <div className="flex items-center space-x-3">
-                <span className="text-[#020F59] font-medium text-sm">
-                  {user.user_metadata?.full_name || user.email}
-                </span>
-                <button
-                  onClick={handleSignOut}
-                  className="bg-[#020F59] hover:bg-[#0A2472] text-white font-medium px-4 py-2 rounded-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
-                >
-                  Sign Out
-                </button>
-              </div>
-            ) : (
-              <Link
-                to="/login"
-                className="bg-[#020F59] hover:bg-[#0A2472] text-white font-medium px-4 py-2 rounded-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
-              >
-                Log In
-              </Link>
-            )
-          )}
           <div className="flex items-center space-x-3 ml-4">
           </div>
         </div>
@@ -147,28 +113,6 @@ const Navbar: React.FC = () => {
             >
               Events
             </a>
-            {!loading && (
-              user ? (
-                <div className="flex flex-col space-y-2">
-                  <span className="text-gray-700 font-medium text-sm">
-                    {user.user_metadata?.full_name || user.email}
-                  </span>
-                  <button
-                    onClick={handleSignOut}
-                    className="bg-[#020F59] hover:bg-[#0A2472] text-white font-medium px-4 py-2 rounded-lg transition-all duration-300 text-left"
-                  >
-                    Sign Out
-                  </button>
-                </div>
-              ) : (
-                <Link
-                  to="/login"
-                  className="bg-[#020F59] hover:bg-[#0A2472] text-white font-medium px-4 py-2 rounded-lg transition-all duration-300 text-center block"
-                >
-                  Log In
-                </Link>
-              )
-            )}
           </div>
         </div>
       )}
